@@ -1,0 +1,35 @@
+.cursoTitle{
+    color: rgb(238, 81, 9);
+    text-align: center;
+}
+
+.description{
+    background-color: black;
+    color: cornsilk;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-frame{
+    background-size: cover;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+    opacity: 0.5;
+}
+
+.image-frame:hover{
+    opacity: 1;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 60px 120px;
+}
