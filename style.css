@@ -11,6 +11,10 @@
     text-align: center;
 }
 
+.oculta{
+    display: none;
+}
+
 .image-frame{
     background-size: cover;
     height: 200px;
